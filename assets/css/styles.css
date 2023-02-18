@@ -91,6 +91,12 @@ img.website-logo {
   transition: .3s;
 }
 
+@media only screen and (max-width: 475px) {
+  img.website-logo{
+    display: none;
+  }
+}
+
 /*=============== THEME ===============*/
 
 .change-theme {
