@@ -82,7 +82,17 @@ img {
   height: auto;
 }
 
+img.website-logo {
+  width: 200px;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
 /*=============== THEME ===============*/
+
 .change-theme {
   position: absolute;
   top: 1.5rem;
@@ -502,6 +512,11 @@ body.dark-theme {
   }
 
   .change-theme {
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+
+  .website-logo {
     top: 2.5rem;
     right: 2.5rem;
   }
